@@ -1,9 +1,20 @@
 <!DOCTYPE html>
+
+{% load static %}
+
+
 <html>
 <head>
-    <title></title>
+    <title>Rango</title>
 </head>
 <body>
+    <h1>Rango says.....</h1>
+    Hello World! <br>
+    <strong>{{ boldmessage }} </strong><br />
+    <a href="/rango/about/">About</a><br />
+    <img src="{% static "images/dragon.jpg" %}" alt="Picture of Toothless" height="200px" />
+
 
 </body>
 </html>
+

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-        {% load media %}
+        {% load static %}
 <html>
 <head>
     <title>About</title>
@@ -9,8 +9,8 @@
     <h1>Rango says.....</h1>
     This is the About Page <br>
     <strong>{{ boldmessage }} </strong><br />
-    <a href="=/rango/">Home</a><br />
-    <img src="{% media "images/cheetahs.jpg" %}" alt="Picture of Cheetahs" height="200px" />
+    <a href="/rango/">Home</a><br />
+    <img src="{% static "/media/images/cheetahs.jpg" %}" alt="Picture of Cheetahs" height="200px" />
 
 
 
